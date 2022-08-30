@@ -22,12 +22,3 @@ li a {
 li a:hover {
   background-color: #111;
 }
-</style>
-</head>
-<body>
-
-<ul>
-  <li><a class="active" href="#index.html">Homepage</a></li>
-  <li><a href="#binairsysteem.html">Binairsysteem</a></li>
-  <li><a href="#kleurmodellen.html">Kleurmodellen</a></li>
-</ul>
