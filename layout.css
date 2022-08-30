@@ -3,10 +3,13 @@
 <html>
 <head>
 <style>
-a:link {
-    color: red;
-    background-color: hotpink;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
 li {
   float: left;
@@ -32,9 +35,10 @@ li a:hover:not(.active) {
 <body>
 
 <ul>
-  <li><a class="active" href="#index.html">Homepage</a></li>
-  <li><a href="#binairstelsel.html">Binairstelsel</a></li>
-  <li><a href="#kleurmodellen.html">Kleurmodellen</a></li>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
 </ul>
 
 </body>
