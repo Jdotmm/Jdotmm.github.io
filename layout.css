@@ -35,3 +35,9 @@ ul {
     font-family: Verdana, sans-serif;
   }
 
+  .header {
+    background-color: #f1f1f1;
+    padding: 5px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+  }
