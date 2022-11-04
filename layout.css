@@ -1,4 +1,4 @@
-
+/* haalt de puntjes weg en zorgt voor hokjes */
 ul {
     list-style-type: none;
     margin: 0;
@@ -6,11 +6,13 @@ ul {
     overflow: hidden;
     background-color: #333;
   }
-  
+
+  /* die informatie in het menu staat in de linkerkant van de hokjes */
   li {
     float: left;
   }
   
+  /* zorgt voor de vorm in het hokje, dus kleur van de tekst enzo */
   li a {
     display: block;
     color: white;
@@ -19,10 +21,12 @@ ul {
     text-decoration: none;
   }
   
+  /* maakt een menu hokje zwart als je er met de muis over hovert */
   li a:hover:not(.active) {
     background-color: #111;
   }
   
+  /* maakt de het hokje van de pagina die op het moment open staat groen*/
   .active {
     background-color: #04AA6D;
   }
@@ -35,6 +39,7 @@ ul {
     font-family: Verdana, sans-serif;
   }
 
+  /* dit zorgt voor de opmaak van de header (achtergrond kleur en font type) */
   .header {
     background-color: #f1f1f1;
     padding: 5px;
@@ -50,27 +55,28 @@ ul {
     margin: 0;
   }
   
-  /* Create two equal columns that floats next to each other */
+  /* maakt twee gelijke kolommen die naast elkaar staan */
   .column {
     float: left;
     width: 50%;
     padding: 15px;
+    font-family: Verdana, sans-serif;
 }
 
-  /* Clear floats after the columns */
+  /* lege stukken tussen de kolommen */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  /* Responsive layout - zorgt dat tukken tekst en afbeeldingen onder elkaar komen te staan op smalle displays */
   @media screen and (max-width:600px) {
     .column {
       width: 100%;
     }
   }
-
+/* Zorgt voor een footer onder aan de pagina die laat zien dat de site door mij is gemaakt */
   .footer {
     position: fixed;
     left: 0;
